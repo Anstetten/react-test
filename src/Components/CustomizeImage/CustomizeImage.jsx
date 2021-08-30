@@ -3,8 +3,8 @@ import "./CustomizeImage.css"
 
 export class CustomizeImage extends Component {
     state={
-        url:"",
-        size:0,
+        url:"https://ezsai.com/wp-content/uploads/2021/02/firefox_2018-07-10_07-50-11.png",
+        size:50,
     }
 
     //Function to handle all the changes occuring ina the input tags
