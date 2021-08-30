@@ -2,6 +2,8 @@ To run the project on your computer:
  - install dependencies by running npm install
  - use the provided start script by running "npm start"
 
+https://cranky-hugle-db105c.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
