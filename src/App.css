@@ -16,7 +16,14 @@ nav{
 .logoLink{
 text-decoration: none;
 font-weight: bolder;
+transition: all 0.2s ease-in-out;
+color: black;
 }
+
+.logoLink:hover{
+  transform: scale(1.1);
+  color:rgb(45, 75, 77)
+  }
 
 .App{
   height: 90vh ;
