@@ -1,0 +1,9 @@
+.customDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customDiv input,h4,img{
+    margin-top: 1rem;
+}

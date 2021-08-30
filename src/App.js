@@ -8,7 +8,7 @@ import Customize from './Pages/Customize/Customize';
 function App() {
   return (
     <div className="App">
-      <nav>
+      <nav className="navBar">
       <NavLink className="logoLink" exact to="/">Home</NavLink>
       <NavLink className="logoLink" exact to="/temperature">Temperature</NavLink>
       <NavLink className="logoLink" exact to="/customize-image">Customize image</NavLink>

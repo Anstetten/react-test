@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "./CustomizeImage.css"
 
 export class CustomizeImage extends Component {
     state={
@@ -6,6 +7,7 @@ export class CustomizeImage extends Component {
         size:0,
     }
 
+    //Function to handle all the changes occuring ina the input tags
     handleChange=(event)=>{
         let value=event.target.value;
         let key = event.target.name;
@@ -22,7 +24,7 @@ export class CustomizeImage extends Component {
             height: this.state.size+"px",
           };
         return (
-            <div>
+            <div className="customDiv">
                 <input type="text" name ="url" value={this.state.url} onChange={this.handleChange}/>
                 <input type="range" name="size" min="0" max="200"value={this.state.size} onChange={this.handleChange}></input>
                 <h4>{this.state.size} x {this.state.size} px</h4>
